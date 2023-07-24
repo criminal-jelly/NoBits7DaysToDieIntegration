@@ -1,4 +1,4 @@
 <NoBitsTwitch>
     <set xpath="/twitch/@pimp_pot_type">PP</set>
-    <set xpath="/twitch/action/property/[@value='Bits']/@value">SP</set>
+    <set xpath="/twitch/action/property[@name='point_type' and @value='Bits']/@value">SP</set>
 </NoBitsTwitch>
